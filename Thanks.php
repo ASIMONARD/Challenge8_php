@@ -10,14 +10,14 @@
 <body>
     <?php
         echo
-            'Merci ' . $_GET['user_firstname'] . ' ' . $_GET['user_lastname'] . ' de nous avoir contacté à propos de ' . $_GET['user_sujet'] . '.
-            Un de nos conseiller vous contactera soit à l’adresse ' . $_GET['user_mail'] . ' ou par téléphone au ' .  $_GET['user_tel'] . ' dans les plus brefs délais pour traiter votre demande :'
+            'Merci ' . $_POST['user_firstname'] . ' ' . $_POST['user_lastname'] . ' de nous avoir contacté à propos de ' . $_POST['user_sujet'] . '.
+            Un de nos conseiller vous contactera soit à l’adresse ' . $_POST['user_mail'] . ' ou par téléphone au ' .  $_POST['user_tel'] . ' dans les plus brefs délais pour traiter votre demande :'
         ?></br>
         <?php
         echo 'Votre messge :'
         ?></br>
         <?php
-        echo $_GET['user_message']; 
+        echo $_POST['user_message']; 
     ?>
 </body>
 

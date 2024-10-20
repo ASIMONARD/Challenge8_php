@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
 <body>
-    <form action="Thanks.php" method="GET">
+    <form action="Thanks.php" method="post">
         <ul>
             <li>
                 <label for="lastname">Nom&nbsp;:</label>
